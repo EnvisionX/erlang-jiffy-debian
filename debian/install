@@ -1,0 +1,3 @@
+ebin/*.app /usr/lib/erlang/lib/jiffy-0.14.3/ebin
+ebin/*.beam /usr/lib/erlang/lib/jiffy-0.14.3/ebin
+priv/jiffy.so /usr/lib/erlang/lib/jiffy-0.14.3/priv

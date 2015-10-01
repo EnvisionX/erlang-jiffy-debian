@@ -1,0 +1,20 @@
+Source: erlang-jiffy
+Section: devel
+Priority: extra
+Maintainer: Aleksey Morarash <aleksey.morarash@envisionx.co>
+Build-Depends: debhelper (>= 8.0.0), rebar, gcc, git,
+ erlang-eunit, erlang-xmerl
+Standards-Version: 3.9.3
+Homepage: https://github.com/davisp/jiffy
+Vcs-Browser: https://github.com/davisp/jiffy
+Vcs-Git: https://github.com/davisp/jiffy.git
+
+Package: erlang-jiffy
+Architecture: any
+Depends: erlang-base
+Description: JSON NIFs for Erlang
+ A JSON parser as a NIF. This is a complete rewrite of the work
+ I did in EEP0018 that was based on Yajl. This new version is a
+ hand crafted state machine that does its best to be as quick
+ and efficient as possible while not placing any constraints on
+ the parsed JSON.

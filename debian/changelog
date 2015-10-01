@@ -1,0 +1,5 @@
+erlang-jiffy (0.14.3-0) unstable; urgency=low
+
+  * Initial release for Debian Jessie.
+
+ -- Aleksey Morarash <aleksey.morarash@envisionx.co>  Thu, 01 Oct 2015 22:52:00 +0300
