@@ -1,3 +1,14 @@
+erlang-jiffy (0.14.7-0) unstable; urgency=low
+
+  * Fix dialyzer spec for jiffy:encode/1,2;
+  * Fix compilation on GNU/Hurd;
+  * Fix memory leak when encoding map terms;
+  * Remove debug logging;
+  * Publish Jiffy on hex.pm;
+  * Add double-conversion license to main LICENSE file.
+
+ -- Aleksey Morarash <aleksey.morarash@envisionx.co>  Fri, 19 Feb 2016 11:31:00 +0200
+
 erlang-jiffy (0.14.3-0) unstable; urgency=low
 
   * Initial release for Debian Jessie.
